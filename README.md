@@ -1,5 +1,5 @@
 # ConversationalAIbot
-- A multi-language conversational telegram chat-bot. 
+- Multi-language conversational telegram chat-bot. 
 - AI based and has support for over 100 languages.
 - [Lucy bot](https://t.me/aiconvbot)
 
