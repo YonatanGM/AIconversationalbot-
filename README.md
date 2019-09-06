@@ -1,14 +1,14 @@
 # ConversationalAIbot
 - A multi-language conversational telegram chat-bot. 
 - AI based and has support for over 100 languages.
-- [Lucy bot](https://t.me/aiconvbot]
+- [Lucy bot](https://t.me/aiconvbot)
 
 ## installation
 1. clone/download project 
-2. run `pip install -r requirements.txt`
+2. `pip install -r requirements.txt`
 
 ## usage
-run `python bot.py -t <TOKEN> -i <api_id> -q <api_hash>` to start bot 
+`python bot.py -t <TOKEN> -i <api_id> -q <api_hash>`
 
 
 
