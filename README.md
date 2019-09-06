@@ -3,11 +3,11 @@
 - AI based and has support for over 100 languages.
 - [Lucy bot](https://t.me/aiconvbot)
 
-## installation
+## Installation
 1. clone/download project 
 2. `pip install -r requirements.txt`
 
-## usage
+## Usage
 `python bot.py -t <TOKEN> -i <api_id> -q <api_hash>`
 
 
