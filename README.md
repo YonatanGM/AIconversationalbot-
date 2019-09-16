@@ -10,7 +10,7 @@
 ## Usage
 `python bot.py -t <TOKEN> -i <api_id> -q <api_hash>`
 
-#### bot in action: you can switch language amid conversation, and the conversation would go on seamlessly. 
+#### bot in action: the conversation would go on seamlessly even if you switch language amid conversation
 
 
 ![interface](Capture.PNG)
