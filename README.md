@@ -10,6 +10,13 @@
 ## Usage
 `python bot.py -t <TOKEN> -i <api_id> -q <api_hash>`
 
+#### bot in action, seamless interaction even when switching language amid conversation
+
+
+![interface](Capture.PNG)
+
+
+
 
 
 
