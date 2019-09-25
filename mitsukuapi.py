@@ -24,8 +24,6 @@ def mitsukuapi(query):
     main_soup = bs4.BeautifulSoup(main_page, 'lxml')
     botkey = re.search(r'PB_BOTKEY: "(.*)"', main_page).groups()[0]
     
-    # Mitsuku does not check your client_name really carefully (smirk) as
-    # long as the length is 13.
     client_name = str(random.randint(1337, 9696913371337)).rjust(13, '0')
     response_raw = session.post(
         f'https://miapi.pandorabots.com/talk?'
@@ -37,10 +35,9 @@ def mitsukuapi(query):
     try:
         response_json = json.loads(response_raw)
     except json.JSONDecodeError:
-        # Sometimes Mitsuku sends stuff like pictures.
+        # pictures
         response_json = {'responses': ["<i can't understand it, bro>"]}
-    # If the query is too long, Mitsuku answers in several lines.  Here
-    # I'll just put it into paragraphs.
+    # putting in paragraphs.
     response = '\n\n'.join(response_json['responses'])
     return response
 
