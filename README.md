@@ -1,5 +1,7 @@
 # ConversationalAIbot
 Conversational telegram chat-bot with support for over 100 languages. 
+based on Mituku and google translate api
+
 - [Lucy bot](https://t.me/aiconvbot)
 
 ## Installation
