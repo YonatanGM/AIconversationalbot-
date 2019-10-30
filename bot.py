@@ -3,7 +3,7 @@ from telethon.tl.types import InputBotInlineResult
 from datetime import datetime
 import logging, argparse, os, subprocess
 from googletrans import Translator
-from mitsukuapi import mitsukuapi
+from mitsuku import mitsukuapi
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',level=logging.WARNING)
 
