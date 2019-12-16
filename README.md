@@ -1,7 +1,5 @@
 # ConversationalAIbot
-Conversational telegram chat-bot with support for over 100 languages. 
-
-- [Lucy bot](https://t.me/aiconvbot)
+Conversational telegram chat-bot with support for over 100 languages. [Lucy bot](https://t.me/aiconvbot)
 
 ## Installation
 1. clone/download project 
