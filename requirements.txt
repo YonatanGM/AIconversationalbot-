@@ -1,6 +1,6 @@
 beautifulsoup4==4.8.0
 googletrans==2.4.0
-lxml==4.6.2
+lxml==4.9.1
 requests==2.22.0
 soupsieve==1.9.3
 Telethon==1.9.0
